@@ -1,12 +1,13 @@
 * {
-    padding:0px;
     margin:0px;
     box-sizing: border-box;
 }
 
 .hero{
+    height:100vh;
+    align-content: center;
     color: blue;
-    background-image: url("Boyz.jpg");
+    background-image: url('images/Boyz.jpg');
     background-color: aqua;
     padding:20px;
 }
