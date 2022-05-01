@@ -1,13 +1,44 @@
 * {
-    margin:0px;
     box-sizing: border-box;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
 }
 
 .hero{
-    height:100vh;
-    align-content: center;
-    color: blue;
+    align-items: flex-end;
+    background-color: gray;
     background-image: url('images/Boyz.jpg');
-    background-color: aqua;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    justify-content: center;
     padding:20px;
+}
+
+.hero::before{
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0px;
+    content: "";
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.text-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    font-size: larger;
+    padding: 20px;
+    position:relative;
+}
+
+#welcome{
+    font-size:8em;
+}
+
+#welcome-text{
+    font-size: 1.5em;
 }
