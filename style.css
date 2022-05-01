@@ -1,7 +1,11 @@
-.hero{
-    color: blue;
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
 }
 
-.body{
-    background: #000;
+.hero{
+    color: blue;
+    background-color: darkgoldenrod;
+    padding:20px;
 }
