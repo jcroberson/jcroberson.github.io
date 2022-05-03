@@ -1,46 +1,43 @@
 * {
     box-sizing: border-box;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     margin:0px;
 }
 
-.hero{
-    align-items: flex-end;
-    background-color: gray;
-    background-image: url('images/Boyz.jpg');
-    background-position: center center;
-    background-size: cover;
-    display:flex;
-    height:100vh;
-    justify-content: center;
-    padding:20px;
+#frame{
+    display: flex;
+    height: 100vh;
+    width: 100%;
 }
 
-.hero::before{
-    background-color: rgba(0,0,0,0.5);
-    bottom: 0px;
-    content: "";
-    left: 0px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+.left-panel{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    height:100%;
+    width:55%;
+}
+
+.right-panel{
+    background-color: gray;
+    background-image: url('images/profile.png');
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width:45%;
 }
 
 .text-container{
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 12px;
-    font-size: larger;
     padding: 20px;
+    margin-left:10%;
     position:relative;
+    align-content:left;
 }
 
-#welcome{
-    font-size:8em;
+.text{
+    font-size: 1em;
 }
 
-#welcome-text{
-    font-size: 1.5em;
+.howdy{
+    font-size: 6em;
 }
-
-/*This isn't working*/
