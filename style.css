@@ -41,3 +41,11 @@
 .howdy{
     font-size: 6em;
 }
+
+img{
+    image-rendering: pixelated;
+}
+
+#sprite{
+    height:6em;
+}
