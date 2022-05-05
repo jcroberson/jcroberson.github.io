@@ -11,6 +11,7 @@
 }
 
 .left-panel{
+    float: left;
     display:flex;
     align-items: center;
     background-color: white;
@@ -19,6 +20,7 @@
 }
 
 .right-panel{
+    float: left;
     background-color: gray;
     background-image: url('images/profile.png');
     background-position: center;
@@ -30,16 +32,18 @@
 .text-container{
     padding: 20px;
     margin-left:10%;
+    margin-right:10%;
     position:relative;
     align-content:left;
 }
 
 .text{
-    font-size: 1em;
+    font-size: 1.5vw;
+    text-align: justify;
 }
 
 .howdy{
-    font-size: 6em;
+    font-size: 6vw;
 }
 
 img{
@@ -47,5 +51,41 @@ img{
 }
 
 #sprite{
-    height:6em;
+    height:6vw;
 }
+
+@media screen and (max-width: 800px) {
+    .left-panel{
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top:20%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    .right-panel {
+        height: 100%;
+        width: 100%;
+        position:absolute;
+        top:0;
+    }
+    #frame {
+        flex-direction: column;
+    }
+    .text-container{
+        background-color: white;
+        width:100%;
+        margin: none;
+        border-radius: 12px;
+    }
+    .howdy{
+        font-size: 12vw;
+    }
+    #sprite{
+        height: 12vw;
+    }
+    .text{
+        font-size: 2.5vw;
+    }
+}
+
