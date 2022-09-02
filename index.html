@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+    </style> 
+    <link rel="stylesheet" href="stylesheets/style.css">
     <title>J.C. Roberson's website</title>
 </head>
 <body>
     <div id="frame">
-        <div class="left-panel">
-            <div class="text-container"> 
-                <span class="howdy"><b>Howdy!</b></span><img src="images/brock_but_me.gif" id="sprite" align="right">
-                <p class="text">I'm J.C. Roberson, a biomedical engineering major at Texas A&M University.</p> 
+        <div id="header">
+            <div id="me">
+                <img src="images/brock_but_me.gif">
+            </div>
+            <div class="nav-bar">
+                <ul class="page-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>About</a></li>
+                </ul>
             </div>
         </div>
-        <div class="right-panel"></div>
+        <div class="hero">
+            <div class="welcome">
+                <p class="howdy">
+                    <b>Howdy!</b>
+                </p>
+                <p class = 'intro'>
+                    I'm J.C. Roberson, a biomedical engineering student at
+                    Texa A&M University.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
