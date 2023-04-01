@@ -1,0 +1,66 @@
+@font-face{
+    font-family: "QanelasBold";
+    src: url('../fonts/QanelasSoftDEMO-ExtraBold.otf')
+}
+
+@font-face{
+    font-family: "Newake";
+    src: url('../fonts/Newake-Font-Demo.otf')
+}
+
+@font-face{
+    font-family: "Magilio";
+    src: url('../fonts/MagilioRegular-8Mxvg.otf') format('opentype')
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: #EFEFEF;
+    color: #32373E;
+    height: 100vh;
+    padding: 0px;
+    width: 100%;
+}
+
+h1{
+    font-family: "QanelasBold";
+    font-size: 8em;
+}
+
+p{
+    font-family: "QanelasBold";
+    font-size: 2em;
+}
+
+#frame{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    height: calc(100vh - 3em);
+}
+
+#left{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#right{
+    padding: 1em;
+}
+
+.scroll-pic{
+    border-radius: 6em;
+    background-color: aqua;
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/me2.JPG");
+}

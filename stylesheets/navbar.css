@@ -1,0 +1,38 @@
+*{
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#nav-bar{
+    display: flex;
+    font-family: "QanelasBold";
+    height: 3em;
+    justify-content: center;
+    padding: 0px;
+}
+
+.current-page{
+    background-color: #32373E;
+    color: #EFEFEF !important;
+}
+
+.nav-button{
+    border-radius: 0em 0em 1em 1em;
+    color: #32373E;
+    padding: 1em;
+    transition: font-size 0.3s;
+}
+
+.nav-button:not(.current-page):hover{
+    font-size: 1.2em;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #32373E;
+    text-decoration: none;
+}
